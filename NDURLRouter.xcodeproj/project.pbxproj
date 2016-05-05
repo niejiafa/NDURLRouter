@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D53EB6E1CDB24C400274D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB6D1CDB24C400274D18 /* main.m */; };
+		7D53EB711CDB24C400274D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB701CDB24C400274D18 /* AppDelegate.m */; };
+		7D53EB741CDB24C400274D18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB731CDB24C400274D18 /* ViewController.m */; };
+		7D53EB771CDB24C400274D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB751CDB24C400274D18 /* Main.storyboard */; };
+		7D53EB791CDB24C400274D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB781CDB24C400274D18 /* Assets.xcassets */; };
+		7D53EB7C1CDB24C400274D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB7A1CDB24C400274D18 /* LaunchScreen.storyboard */; };
+		7D53EB981CDB254300274D18 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB931CDB254300274D18 /* LICENSE */; };
+		7D53EB991CDB254300274D18 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB961CDB254300274D18 /* MGJRouter.m */; };
+		7D53EB9A1CDB254300274D18 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB971CDB254300274D18 /* README.md */; };
+		7D53EB9F1CDB260100274D18 /* NDURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB9E1CDB260100274D18 /* NDURLRouter.m */; };
+		7D53EBA21CDB26D600274D18 /* NDURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBA11CDB26D600274D18 /* NDURLManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D53EB691CDB24C300274D18 /* NDURLRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDURLRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D53EB6D1CDB24C400274D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D53EB6F1CDB24C400274D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NDURLRouter/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		7D53EB701CDB24C400274D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NDURLRouter/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		7D53EB721CDB24C400274D18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		7D53EB731CDB24C400274D18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		7D53EB761CDB24C400274D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D53EB781CDB24C400274D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D53EB7B1CDB24C400274D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D53EB7D1CDB24C400274D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D53EB931CDB254300274D18 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7D53EB951CDB254300274D18 /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		7D53EB961CDB254300274D18 /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		7D53EB971CDB254300274D18 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7D53EB9D1CDB260100274D18 /* NDURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLRouter.h; sourceTree = "<group>"; };
+		7D53EB9E1CDB260100274D18 /* NDURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLRouter.m; sourceTree = "<group>"; };
+		7D53EBA01CDB26D600274D18 /* NDURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLManager.h; sourceTree = "<group>"; };
+		7D53EBA11CDB26D600274D18 /* NDURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D53EB661CDB24C300274D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D53EB601CDB24C300274D18 = {
+			isa = PBXGroup;
+			children = (
+				7D53EB6B1CDB24C300274D18 /* NDURLRouter */,
+				7D53EB6A1CDB24C300274D18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D53EB6A1CDB24C300274D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB691CDB24C300274D18 /* NDURLRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D53EB6B1CDB24C300274D18 /* NDURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB9B1CDB256D00274D18 /* App */,
+				7D53EB9C1CDB259B00274D18 /* NDURLRouter */,
+				7D53EB911CDB254300274D18 /* Vendor */,
+				7D53EB6C1CDB24C400274D18 /* Supporting Files */,
+			);
+			path = NDURLRouter;
+			sourceTree = "<group>";
+		};
+		7D53EB6C1CDB24C400274D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB751CDB24C400274D18 /* Main.storyboard */,
+				7D53EB781CDB24C400274D18 /* Assets.xcassets */,
+				7D53EB7A1CDB24C400274D18 /* LaunchScreen.storyboard */,
+				7D53EB7D1CDB24C400274D18 /* Info.plist */,
+				7D53EB6D1CDB24C400274D18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D53EB911CDB254300274D18 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB921CDB254300274D18 /* MGJRouter */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7D53EB921CDB254300274D18 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB931CDB254300274D18 /* LICENSE */,
+				7D53EB941CDB254300274D18 /* MGJRouter */,
+				7D53EB971CDB254300274D18 /* README.md */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		7D53EB941CDB254300274D18 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB951CDB254300274D18 /* MGJRouter.h */,
+				7D53EB961CDB254300274D18 /* MGJRouter.m */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		7D53EB9B1CDB256D00274D18 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB6F1CDB24C400274D18 /* AppDelegate.h */,
+				7D53EB701CDB24C400274D18 /* AppDelegate.m */,
+				7D53EB721CDB24C400274D18 /* ViewController.h */,
+				7D53EB731CDB24C400274D18 /* ViewController.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7D53EB9C1CDB259B00274D18 /* NDURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EB9D1CDB260100274D18 /* NDURLRouter.h */,
+				7D53EB9E1CDB260100274D18 /* NDURLRouter.m */,
+				7D53EBA01CDB26D600274D18 /* NDURLManager.h */,
+				7D53EBA11CDB26D600274D18 /* NDURLManager.m */,
+			);
+			path = NDURLRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D53EB681CDB24C300274D18 /* NDURLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D53EB8B1CDB24C400274D18 /* Build configuration list for PBXNativeTarget "NDURLRouter" */;
+			buildPhases = (
+				7D53EB651CDB24C300274D18 /* Sources */,
+				7D53EB661CDB24C300274D18 /* Frameworks */,
+				7D53EB671CDB24C300274D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NDURLRouter;
+			productName = NDURLRouter;
+			productReference = 7D53EB691CDB24C300274D18 /* NDURLRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D53EB611CDB24C300274D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NDEducation;
+				TargetAttributes = {
+					7D53EB681CDB24C300274D18 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7D53EB641CDB24C300274D18 /* Build configuration list for PBXProject "NDURLRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D53EB601CDB24C300274D18;
+			productRefGroup = 7D53EB6A1CDB24C300274D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D53EB681CDB24C300274D18 /* NDURLRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D53EB671CDB24C300274D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D53EB7C1CDB24C400274D18 /* LaunchScreen.storyboard in Resources */,
+				7D53EB791CDB24C400274D18 /* Assets.xcassets in Resources */,
+				7D53EB981CDB254300274D18 /* LICENSE in Resources */,
+				7D53EB771CDB24C400274D18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D53EB651CDB24C300274D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D53EB741CDB24C400274D18 /* ViewController.m in Sources */,
+				7D53EB991CDB254300274D18 /* MGJRouter.m in Sources */,
+				7D53EBA21CDB26D600274D18 /* NDURLManager.m in Sources */,
+				7D53EB9A1CDB254300274D18 /* README.md in Sources */,
+				7D53EB711CDB24C400274D18 /* AppDelegate.m in Sources */,
+				7D53EB9F1CDB260100274D18 /* NDURLRouter.m in Sources */,
+				7D53EB6E1CDB24C400274D18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D53EB751CDB24C400274D18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D53EB761CDB24C400274D18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D53EB7A1CDB24C400274D18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D53EB7B1CDB24C400274D18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D53EB891CDB24C400274D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D53EB8A1CDB24C400274D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D53EB8C1CDB24C400274D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NDURLRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D53EB8D1CDB24C400274D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NDURLRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.education.nd.NDURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D53EB641CDB24C300274D18 /* Build configuration list for PBXProject "NDURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D53EB891CDB24C400274D18 /* Debug */,
+				7D53EB8A1CDB24C400274D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D53EB8B1CDB24C400274D18 /* Build configuration list for PBXNativeTarget "NDURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D53EB8C1CDB24C400274D18 /* Debug */,
+				7D53EB8D1CDB24C400274D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D53EB611CDB24C300274D18 /* Project object */;
+}
