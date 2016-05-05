@@ -18,6 +18,7 @@
 		7D53EB9A1CDB254300274D18 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB971CDB254300274D18 /* README.md */; };
 		7D53EB9F1CDB260100274D18 /* NDURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB9E1CDB260100274D18 /* NDURLRouter.m */; };
 		7D53EBA21CDB26D600274D18 /* NDURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBA11CDB26D600274D18 /* NDURLManager.m */; };
+		7D53EBA41CDB2A0C00274D18 /* NDURLConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EBA31CDB2A0C00274D18 /* NDURLConfiguration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7D53EB9E1CDB260100274D18 /* NDURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLRouter.m; sourceTree = "<group>"; };
 		7D53EBA01CDB26D600274D18 /* NDURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLManager.h; sourceTree = "<group>"; };
 		7D53EBA11CDB26D600274D18 /* NDURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLManager.m; sourceTree = "<group>"; };
+		7D53EBA31CDB2A0C00274D18 /* NDURLConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NDURLConfiguration.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		7D53EB6C1CDB24C400274D18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D53EBA31CDB2A0C00274D18 /* NDURLConfiguration.plist */,
 				7D53EB751CDB24C400274D18 /* Main.storyboard */,
 				7D53EB781CDB24C400274D18 /* Assets.xcassets */,
 				7D53EB7A1CDB24C400274D18 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 				7D53EB7C1CDB24C400274D18 /* LaunchScreen.storyboard in Resources */,
 				7D53EB791CDB24C400274D18 /* Assets.xcassets in Resources */,
 				7D53EB981CDB254300274D18 /* LICENSE in Resources */,
+				7D53EBA41CDB2A0C00274D18 /* NDURLConfiguration.plist in Resources */,
 				7D53EB771CDB24C400274D18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

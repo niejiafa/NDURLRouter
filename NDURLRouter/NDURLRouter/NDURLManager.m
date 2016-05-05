@@ -24,4 +24,27 @@
     return instance;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self nd_loadConfiguration];
+    }
+    return self;
+}
+
+#pragma mark - private
+
+- (void)nd_loadConfiguration
+{
+    NSURL *configURL = [[NSBundle mainBundle] URLForResource:@"NDURLConfiguration" withExtension:@"plist"];
+    NSAssert(configURL, @"Can't find configuration file.");
+    [self nd_loadConfigurationWithURL:configURL];
+}
+
+- (void)nd_loadConfigurationWithURL:(NSURL *)configurationURL
+{
+    
+}
+
 @end
