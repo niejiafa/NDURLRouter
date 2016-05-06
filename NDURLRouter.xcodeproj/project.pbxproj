@@ -16,9 +16,18 @@
 		7D53EB981CDB254300274D18 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB931CDB254300274D18 /* LICENSE */; };
 		7D53EB991CDB254300274D18 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB961CDB254300274D18 /* MGJRouter.m */; };
 		7D53EB9A1CDB254300274D18 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB971CDB254300274D18 /* README.md */; };
-		7D53EB9F1CDB260100274D18 /* NDURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB9E1CDB260100274D18 /* NDURLRouter.m */; };
-		7D53EBA21CDB26D600274D18 /* NDURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBA11CDB26D600274D18 /* NDURLManager.m */; };
 		7D53EBA41CDB2A0C00274D18 /* NDURLConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EBA31CDB2A0C00274D18 /* NDURLConfiguration.plist */; };
+		7D53EBC01CDC7D8D00274D18 /* UIViewController+NDURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBAC1CDC7D8D00274D18 /* UIViewController+NDURLRouter.m */; };
+		7D53EBC11CDC7D8D00274D18 /* NDURLConfigurableInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBAE1CDC7D8D00274D18 /* NDURLConfigurableInterceptor.m */; };
+		7D53EBC21CDC7D8D00274D18 /* NDURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBB01CDC7D8D00274D18 /* NDURLHandler.m */; };
+		7D53EBC31CDC7D8D00274D18 /* NDURLInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBB21CDC7D8D00274D18 /* NDURLInput.m */; };
+		7D53EBC41CDC7D8D00274D18 /* NDURLInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBB41CDC7D8D00274D18 /* NDURLInterceptor.m */; };
+		7D53EBC51CDC7D8D00274D18 /* NDURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBB71CDC7D8D00274D18 /* NDURLManager.m */; };
+		7D53EBC61CDC7D8D00274D18 /* NDURLOpenOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBB91CDC7D8D00274D18 /* NDURLOpenOptions.m */; };
+		7D53EBC71CDC7D8D00274D18 /* NDURLResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBBB1CDC7D8D00274D18 /* NDURLResult.m */; };
+		7D53EBC81CDC7D8D00274D18 /* NDURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBBD1CDC7D8D00274D18 /* NDURLRouter.m */; };
+		7D53EBCF1CDC7EB600274D18 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBCB1CDC7EB600274D18 /* NSObject+YYModel.m */; };
+		7D53EBD01CDC7EB600274D18 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBCD1CDC7EB600274D18 /* YYClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,11 +45,31 @@
 		7D53EB951CDB254300274D18 /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
 		7D53EB961CDB254300274D18 /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
 		7D53EB971CDB254300274D18 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7D53EB9D1CDB260100274D18 /* NDURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLRouter.h; sourceTree = "<group>"; };
-		7D53EB9E1CDB260100274D18 /* NDURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLRouter.m; sourceTree = "<group>"; };
-		7D53EBA01CDB26D600274D18 /* NDURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLManager.h; sourceTree = "<group>"; };
-		7D53EBA11CDB26D600274D18 /* NDURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLManager.m; sourceTree = "<group>"; };
 		7D53EBA31CDB2A0C00274D18 /* NDURLConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NDURLConfiguration.plist; sourceTree = "<group>"; };
+		7D53EBAB1CDC7D8D00274D18 /* UIViewController+NDURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NDURLRouter.h"; sourceTree = "<group>"; };
+		7D53EBAC1CDC7D8D00274D18 /* UIViewController+NDURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NDURLRouter.m"; sourceTree = "<group>"; };
+		7D53EBAD1CDC7D8D00274D18 /* NDURLConfigurableInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLConfigurableInterceptor.h; sourceTree = "<group>"; };
+		7D53EBAE1CDC7D8D00274D18 /* NDURLConfigurableInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLConfigurableInterceptor.m; sourceTree = "<group>"; };
+		7D53EBAF1CDC7D8D00274D18 /* NDURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLHandler.h; sourceTree = "<group>"; };
+		7D53EBB01CDC7D8D00274D18 /* NDURLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLHandler.m; sourceTree = "<group>"; };
+		7D53EBB11CDC7D8D00274D18 /* NDURLInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLInput.h; sourceTree = "<group>"; };
+		7D53EBB21CDC7D8D00274D18 /* NDURLInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLInput.m; sourceTree = "<group>"; };
+		7D53EBB31CDC7D8D00274D18 /* NDURLInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLInterceptor.h; sourceTree = "<group>"; };
+		7D53EBB41CDC7D8D00274D18 /* NDURLInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLInterceptor.m; sourceTree = "<group>"; };
+		7D53EBB61CDC7D8D00274D18 /* NDURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLManager.h; sourceTree = "<group>"; };
+		7D53EBB71CDC7D8D00274D18 /* NDURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLManager.m; sourceTree = "<group>"; };
+		7D53EBB81CDC7D8D00274D18 /* NDURLOpenOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLOpenOptions.h; sourceTree = "<group>"; };
+		7D53EBB91CDC7D8D00274D18 /* NDURLOpenOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLOpenOptions.m; sourceTree = "<group>"; };
+		7D53EBBA1CDC7D8D00274D18 /* NDURLResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLResult.h; sourceTree = "<group>"; };
+		7D53EBBB1CDC7D8D00274D18 /* NDURLResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLResult.m; sourceTree = "<group>"; };
+		7D53EBBC1CDC7D8D00274D18 /* NDURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLRouter.h; sourceTree = "<group>"; };
+		7D53EBBD1CDC7D8D00274D18 /* NDURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLRouter.m; sourceTree = "<group>"; };
+		7D53EBBE1CDC7D8D00274D18 /* NDURLSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLSupport.h; sourceTree = "<group>"; };
+		7D53EBCA1CDC7EB600274D18 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		7D53EBCB1CDC7EB600274D18 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		7D53EBCC1CDC7EB600274D18 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		7D53EBCD1CDC7EB600274D18 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		7D53EBCE1CDC7EB600274D18 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +126,7 @@
 		7D53EB911CDB254300274D18 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				7D53EBC91CDC7EB600274D18 /* YYModel */,
 				7D53EB921CDB254300274D18 /* MGJRouter */,
 			);
 			path = Vendor;
@@ -135,12 +165,47 @@
 		7D53EB9C1CDB259B00274D18 /* NDURLRouter */ = {
 			isa = PBXGroup;
 			children = (
-				7D53EB9D1CDB260100274D18 /* NDURLRouter.h */,
-				7D53EB9E1CDB260100274D18 /* NDURLRouter.m */,
-				7D53EBA01CDB26D600274D18 /* NDURLManager.h */,
-				7D53EBA11CDB26D600274D18 /* NDURLManager.m */,
+				7D53EBA81CDC7D8D00274D18 /* NDURLRouter */,
 			);
 			path = NDURLRouter;
+			sourceTree = "<group>";
+		};
+		7D53EBA81CDC7D8D00274D18 /* NDURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EBAB1CDC7D8D00274D18 /* UIViewController+NDURLRouter.h */,
+				7D53EBAC1CDC7D8D00274D18 /* UIViewController+NDURLRouter.m */,
+				7D53EBAD1CDC7D8D00274D18 /* NDURLConfigurableInterceptor.h */,
+				7D53EBAE1CDC7D8D00274D18 /* NDURLConfigurableInterceptor.m */,
+				7D53EBAF1CDC7D8D00274D18 /* NDURLHandler.h */,
+				7D53EBB01CDC7D8D00274D18 /* NDURLHandler.m */,
+				7D53EBB11CDC7D8D00274D18 /* NDURLInput.h */,
+				7D53EBB21CDC7D8D00274D18 /* NDURLInput.m */,
+				7D53EBB31CDC7D8D00274D18 /* NDURLInterceptor.h */,
+				7D53EBB41CDC7D8D00274D18 /* NDURLInterceptor.m */,
+				7D53EBB61CDC7D8D00274D18 /* NDURLManager.h */,
+				7D53EBB71CDC7D8D00274D18 /* NDURLManager.m */,
+				7D53EBB81CDC7D8D00274D18 /* NDURLOpenOptions.h */,
+				7D53EBB91CDC7D8D00274D18 /* NDURLOpenOptions.m */,
+				7D53EBBA1CDC7D8D00274D18 /* NDURLResult.h */,
+				7D53EBBB1CDC7D8D00274D18 /* NDURLResult.m */,
+				7D53EBBC1CDC7D8D00274D18 /* NDURLRouter.h */,
+				7D53EBBD1CDC7D8D00274D18 /* NDURLRouter.m */,
+				7D53EBBE1CDC7D8D00274D18 /* NDURLSupport.h */,
+			);
+			path = NDURLRouter;
+			sourceTree = "<group>";
+		};
+		7D53EBC91CDC7EB600274D18 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D53EBCA1CDC7EB600274D18 /* NSObject+YYModel.h */,
+				7D53EBCB1CDC7EB600274D18 /* NSObject+YYModel.m */,
+				7D53EBCC1CDC7EB600274D18 /* YYClassInfo.h */,
+				7D53EBCD1CDC7EB600274D18 /* YYClassInfo.m */,
+				7D53EBCE1CDC7EB600274D18 /* YYModel.h */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,13 +280,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D53EBC21CDC7D8D00274D18 /* NDURLHandler.m in Sources */,
 				7D53EB741CDB24C400274D18 /* ViewController.m in Sources */,
+				7D53EBC71CDC7D8D00274D18 /* NDURLResult.m in Sources */,
+				7D53EBCF1CDC7EB600274D18 /* NSObject+YYModel.m in Sources */,
+				7D53EBC31CDC7D8D00274D18 /* NDURLInput.m in Sources */,
+				7D53EBC41CDC7D8D00274D18 /* NDURLInterceptor.m in Sources */,
+				7D53EBC01CDC7D8D00274D18 /* UIViewController+NDURLRouter.m in Sources */,
+				7D53EBC51CDC7D8D00274D18 /* NDURLManager.m in Sources */,
 				7D53EB991CDB254300274D18 /* MGJRouter.m in Sources */,
-				7D53EBA21CDB26D600274D18 /* NDURLManager.m in Sources */,
+				7D53EBC11CDC7D8D00274D18 /* NDURLConfigurableInterceptor.m in Sources */,
+				7D53EBC81CDC7D8D00274D18 /* NDURLRouter.m in Sources */,
 				7D53EB9A1CDB254300274D18 /* README.md in Sources */,
 				7D53EB711CDB24C400274D18 /* AppDelegate.m in Sources */,
-				7D53EB9F1CDB260100274D18 /* NDURLRouter.m in Sources */,
 				7D53EB6E1CDB24C400274D18 /* main.m in Sources */,
+				7D53EBC61CDC7D8D00274D18 /* NDURLOpenOptions.m in Sources */,
+				7D53EBD01CDC7EB600274D18 /* YYClassInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
