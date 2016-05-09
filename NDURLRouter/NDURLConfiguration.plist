@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>handlers</key>
+	<dict>
+		<key>Test</key>
+		<dict>
+			<key>url</key>
+			<string>nd://jincieryi.com.cn/test</string>
+			<key>viewController</key>
+			<string>FirstDemoViewController</string>
+		</dict>
+	</dict>
+</dict>
 </plist>
