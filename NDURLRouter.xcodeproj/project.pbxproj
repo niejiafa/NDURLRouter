@@ -18,6 +18,7 @@
 		7D53EBA41CDB2A0C00274D18 /* NDURLConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EBA31CDB2A0C00274D18 /* NDURLConfiguration.plist */; };
 		7D53EBCF1CDC7EB600274D18 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBCB1CDC7EB600274D18 /* NSObject+YYModel.m */; };
 		7D53EBD01CDC7EB600274D18 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBCD1CDC7EB600274D18 /* YYClassInfo.m */; };
+		7DABB7CD1CE1C1D300CD6F36 /* SecondDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DABB7CC1CE1C1D300CD6F36 /* SecondDemoViewController.m */; };
 		7DE8668E1CE0276700CC2134 /* NDURLConfigurableInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8667C1CE0276700CC2134 /* NDURLConfigurableInterceptor.m */; };
 		7DE8668F1CE0276700CC2134 /* NDURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8667E1CE0276700CC2134 /* NDURLHandler.m */; };
 		7DE866901CE0276700CC2134 /* NDURLInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE866801CE0276700CC2134 /* NDURLInput.m */; };
@@ -51,6 +52,8 @@
 		7D53EBCC1CDC7EB600274D18 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
 		7D53EBCD1CDC7EB600274D18 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		7D53EBCE1CDC7EB600274D18 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		7DABB7CB1CE1C1D300CD6F36 /* SecondDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDemoViewController.h; sourceTree = "<group>"; };
+		7DABB7CC1CE1C1D300CD6F36 /* SecondDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDemoViewController.m; sourceTree = "<group>"; };
 		7DE8667B1CE0276700CC2134 /* NDURLConfigurableInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLConfigurableInterceptor.h; sourceTree = "<group>"; };
 		7DE8667C1CE0276700CC2134 /* NDURLConfigurableInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLConfigurableInterceptor.m; sourceTree = "<group>"; };
 		7DE8667D1CE0276700CC2134 /* NDURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLHandler.h; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 			children = (
 				7DE866A21CE08DD400CC2134 /* FirstDemoViewController.h */,
 				7DE866A31CE08DD400CC2134 /* FirstDemoViewController.m */,
+				7DABB7CB1CE1C1D300CD6F36 /* SecondDemoViewController.h */,
+				7DABB7CC1CE1C1D300CD6F36 /* SecondDemoViewController.m */,
 			);
 			name = NormalDemo;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 				7D53EBD01CDC7EB600274D18 /* YYClassInfo.m in Sources */,
 				7DE866951CE0276700CC2134 /* NDURLRouter.m in Sources */,
 				7DE866941CE0276700CC2134 /* NDURLResult.m in Sources */,
+				7DABB7CD1CE1C1D300CD6F36 /* SecondDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

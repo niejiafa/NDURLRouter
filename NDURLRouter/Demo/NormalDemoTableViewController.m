@@ -35,13 +35,27 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
     }
-    cell.textLabel.text = @"First";
+    if (0 == indexPath.row)
+    {
+        cell.textLabel.text = @"First";
+    }
+    else
+    {
+        cell.textLabel.text = @"Second";
+    }
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self openURL:@"nd://jincieryi.com.cn/test"];
+    if (0 == indexPath.row)
+    {
+        [self openURL:@"nd://jincieryi.com.cn/normaldemofirstvc"];
+    }
+    else
+    {
+        [self openURL:@"nd://jincieryi.com.cn/normaldemosecondvc"];
+    }
 }
 
 @end

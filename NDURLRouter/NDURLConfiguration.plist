@@ -4,12 +4,19 @@
 <dict>
 	<key>handlers</key>
 	<dict>
-		<key>Test</key>
+		<key>NormalDemo-FirstVC</key>
 		<dict>
 			<key>url</key>
-			<string>nd://jincieryi.com.cn/test</string>
+			<string>nd://jincieryi.com.cn/normaldemofirstvc</string>
 			<key>viewController</key>
 			<string>FirstDemoViewController</string>
+		</dict>
+		<key>NormalDemo-SecondVC</key>
+		<dict>
+			<key>url</key>
+			<string>nd://jincieryi.com.cn/normaldemosecondvc</string>
+			<key>viewController</key>
+			<string>SecondDemoViewController</string>
 		</dict>
 	</dict>
 </dict>
