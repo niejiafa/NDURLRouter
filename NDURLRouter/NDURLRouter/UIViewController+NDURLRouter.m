@@ -26,10 +26,12 @@
 - (void)openURL:(NSString *)url options:(NDURLOpenOptions *)options completion:(void (^)(NDURLResult *))completion
 {
     NSTimeInterval start = [NSDate timeIntervalSinceReferenceDate];
-    if (!options) {
+    if (!options)
+    {
         options = [[NDURLOpenOptions alloc] init];
     }
-    if (!options.sourceViewController) {
+    if (!options.sourceViewController)
+    {
         options.sourceViewController = self;
     }
     [NDURLRouter openURL:url options:options completion:completion];

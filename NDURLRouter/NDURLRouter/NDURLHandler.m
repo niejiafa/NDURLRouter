@@ -39,9 +39,11 @@ static int NDURLHandlerKey;
 
 - (void)openURLWithInput:(NDURLInput *)input completion:(void (^)(NDURLResult *))completion
 {
-    if (self.redirectURL) {
+    if (self.redirectURL)
+    {
         NDURLOpenOptions *options = input.options ?: [[NDURLOpenOptions alloc] init];
-        if (!options.sourceURL) {
+        if (!options.sourceURL)
+        {
             options.sourceURL = input.url;
         }
         [NDURLRouter openURL:self.redirectURL options:options completion:completion];
@@ -49,7 +51,8 @@ static int NDURLHandlerKey;
     }
     
     Class clz = NSClassFromString(self.viewController);
-    if (clz == nil) {
+    if (!clz)
+    {
         if (completion) {
             completion([NDURLResult errorResultWithInput:input messsage:[NSString stringWithFormat:@"Class not found: %@", self.viewController]]);
         }
@@ -57,9 +60,12 @@ static int NDURLHandlerKey;
     }
     
     UIViewController *vc = [[clz alloc] init];
+    vc.view.backgroundColor = [UIColor whiteColor];
     vc.hidesBottomBarWhenPushed = YES;
-    if (vc == nil) {
-        if (completion) {
+    if (vc == nil)
+    {
+        if (completion)
+        {
             completion([NDURLResult errorResultWithInput:input messsage:[NSString stringWithFormat:@"Creating viewController failed: %@", self.viewController]]);
         }
         return;
@@ -71,13 +77,16 @@ static int NDURLHandlerKey;
     
     NSDictionary *vps = input.options.viewProperties;
     NSMutableDictionary *properties = [NSMutableDictionary dictionary];
-    if (self.viewProperties.count > 0) {
+    if (self.viewProperties.count > 0)
+    {
         [properties addEntriesFromDictionary:self.viewProperties];
     }
-    if (vps.count > 0) {
+    if (vps.count > 0)
+    {
         [properties addEntriesFromDictionary:vps];
     }
-    if (properties.count > 0) {
+    if (properties.count > 0)
+    {
         @try {
             [properties enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
                 [vc setValue:obj forKeyPath:key];
@@ -93,7 +102,8 @@ static int NDURLHandlerKey;
     
     UIViewController *sourceViewController = input.options.sourceViewController;
     UIViewController *oldVc = vc; /// for error
-    if (input.options.preparation) {
+    if (input.options.preparation)
+    {
         __weak typeof(input) winput = input;
         vc = input.options.preparation(sourceViewController, vc, winput);
     }
@@ -153,9 +163,11 @@ static int NDURLHandlerKey;
     }
     
     NSString *action = input.options.action ?: self.action;
-    if (action == nil) {
+    if (action == nil)
+    {
         action = NDURLOpenActionPush;
     }
+    
     BOOL animated = input.options ? input.options.animated : YES;
     
     if ([action isEqualToString:NDURLOpenActionPush]) {
