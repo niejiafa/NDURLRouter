@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D03ACF21CE47D6700A4D1F6 /* TabbarHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D03ACF11CE47D6700A4D1F6 /* TabbarHandler.m */; };
+		7D03ACF51CE4848C00A4D1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D03ACF31CE4848C00A4D1F6 /* Main.storyboard */; };
 		7D53EB6E1CDB24C400274D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB6D1CDB24C400274D18 /* main.m */; };
 		7D53EB711CDB24C400274D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB701CDB24C400274D18 /* AppDelegate.m */; };
-		7D53EB771CDB24C400274D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB751CDB24C400274D18 /* Main.storyboard */; };
 		7D53EB791CDB24C400274D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB781CDB24C400274D18 /* Assets.xcassets */; };
 		7D53EB7C1CDB24C400274D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB7A1CDB24C400274D18 /* LaunchScreen.storyboard */; };
 		7D53EB981CDB254300274D18 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB931CDB254300274D18 /* LICENSE */; };
@@ -19,6 +20,8 @@
 		7D53EBCF1CDC7EB600274D18 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBCB1CDC7EB600274D18 /* NSObject+YYModel.m */; };
 		7D53EBD01CDC7EB600274D18 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EBCD1CDC7EB600274D18 /* YYClassInfo.m */; };
 		7DABB7CD1CE1C1D300CD6F36 /* SecondDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DABB7CC1CE1C1D300CD6F36 /* SecondDemoViewController.m */; };
+		7DABB7D01CE1C76A00CD6F36 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DABB7CF1CE1C76A00CD6F36 /* TabbarViewController.m */; };
+		7DABB7D41CE1CCC600CD6F36 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DABB7D31CE1CCC600CD6F36 /* ThirdViewController.m */; };
 		7DE8668E1CE0276700CC2134 /* NDURLConfigurableInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8667C1CE0276700CC2134 /* NDURLConfigurableInterceptor.m */; };
 		7DE8668F1CE0276700CC2134 /* NDURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8667E1CE0276700CC2134 /* NDURLHandler.m */; };
 		7DE866901CE0276700CC2134 /* NDURLInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE866801CE0276700CC2134 /* NDURLInput.m */; };
@@ -34,11 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D03ACF01CE47D6700A4D1F6 /* TabbarHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarHandler.h; sourceTree = "<group>"; };
+		7D03ACF11CE47D6700A4D1F6 /* TabbarHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarHandler.m; sourceTree = "<group>"; };
+		7D03ACF41CE4848C00A4D1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D53EB691CDB24C300274D18 /* NDURLRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDURLRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D53EB6D1CDB24C400274D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D53EB6F1CDB24C400274D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NDURLRouter/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		7D53EB701CDB24C400274D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NDURLRouter/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		7D53EB761CDB24C400274D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D53EB781CDB24C400274D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D53EB7B1CDB24C400274D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D53EB7D1CDB24C400274D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +59,10 @@
 		7D53EBCE1CDC7EB600274D18 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		7DABB7CB1CE1C1D300CD6F36 /* SecondDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDemoViewController.h; sourceTree = "<group>"; };
 		7DABB7CC1CE1C1D300CD6F36 /* SecondDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDemoViewController.m; sourceTree = "<group>"; };
+		7DABB7CE1CE1C76A00CD6F36 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		7DABB7CF1CE1C76A00CD6F36 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		7DABB7D21CE1CCC600CD6F36 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7DABB7D31CE1CCC600CD6F36 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		7DE8667B1CE0276700CC2134 /* NDURLConfigurableInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLConfigurableInterceptor.h; sourceTree = "<group>"; };
 		7DE8667C1CE0276700CC2134 /* NDURLConfigurableInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDURLConfigurableInterceptor.m; sourceTree = "<group>"; };
 		7DE8667D1CE0276700CC2134 /* NDURLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDURLHandler.h; sourceTree = "<group>"; };
@@ -92,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D03ACEF1CE47D1400A4D1F6 /* ChildHandler */ = {
+			isa = PBXGroup;
+			children = (
+				7D03ACF01CE47D6700A4D1F6 /* TabbarHandler.h */,
+				7D03ACF11CE47D6700A4D1F6 /* TabbarHandler.m */,
+			);
+			name = ChildHandler;
+			sourceTree = "<group>";
+		};
 		7D53EB601CDB24C300274D18 = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +141,8 @@
 		7D53EB6C1CDB24C400274D18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D03ACF31CE4848C00A4D1F6 /* Main.storyboard */,
 				7D53EBA31CDB2A0C00274D18 /* NDURLConfiguration.plist */,
-				7D53EB751CDB24C400274D18 /* Main.storyboard */,
 				7D53EB781CDB24C400274D18 /* Assets.xcassets */,
 				7D53EB7A1CDB24C400274D18 /* LaunchScreen.storyboard */,
 				7D53EB7D1CDB24C400274D18 /* Info.plist */,
@@ -210,12 +228,23 @@
 			path = YYModel;
 			sourceTree = "<group>";
 		};
+		7DABB7D11CE1C95500CD6F36 /* TabbarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7DABB7CE1CE1C76A00CD6F36 /* TabbarViewController.h */,
+				7DABB7CF1CE1C76A00CD6F36 /* TabbarViewController.m */,
+				7DABB7D21CE1CCC600CD6F36 /* ThirdViewController.h */,
+				7DABB7D31CE1CCC600CD6F36 /* ThirdViewController.m */,
+				7D03ACEF1CE47D1400A4D1F6 /* ChildHandler */,
+			);
+			name = TabbarDemo;
+			sourceTree = "<group>";
+		};
 		7DE8669D1CE08B7A00CC2134 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				7DE8669E1CE08B9700CC2134 /* NormalDemoTableViewController.h */,
-				7DE8669F1CE08B9700CC2134 /* NormalDemoTableViewController.m */,
 				7DE866A11CE08DB800CC2134 /* NormalDemo */,
+				7DABB7D11CE1C95500CD6F36 /* TabbarDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -223,6 +252,8 @@
 		7DE866A11CE08DB800CC2134 /* NormalDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7DE8669E1CE08B9700CC2134 /* NormalDemoTableViewController.h */,
+				7DE8669F1CE08B9700CC2134 /* NormalDemoTableViewController.m */,
 				7DE866A21CE08DD400CC2134 /* FirstDemoViewController.h */,
 				7DE866A31CE08DD400CC2134 /* FirstDemoViewController.m */,
 				7DABB7CB1CE1C1D300CD6F36 /* SecondDemoViewController.h */,
@@ -289,10 +320,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D53EB7C1CDB24C400274D18 /* LaunchScreen.storyboard in Resources */,
+				7D03ACF51CE4848C00A4D1F6 /* Main.storyboard in Resources */,
 				7D53EB791CDB24C400274D18 /* Assets.xcassets in Resources */,
 				7D53EB981CDB254300274D18 /* LICENSE in Resources */,
 				7D53EBA41CDB2A0C00274D18 /* NDURLConfiguration.plist in Resources */,
-				7D53EB771CDB24C400274D18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DABB7D01CE1C76A00CD6F36 /* TabbarViewController.m in Sources */,
 				7DE8668F1CE0276700CC2134 /* NDURLHandler.m in Sources */,
 				7DE866921CE0276700CC2134 /* NDURLManager.m in Sources */,
 				7DE866A01CE08B9700CC2134 /* NormalDemoTableViewController.m in Sources */,
@@ -318,20 +350,22 @@
 				7DE8668E1CE0276700CC2134 /* NDURLConfigurableInterceptor.m in Sources */,
 				7D53EB711CDB24C400274D18 /* AppDelegate.m in Sources */,
 				7D53EB6E1CDB24C400274D18 /* main.m in Sources */,
+				7D03ACF21CE47D6700A4D1F6 /* TabbarHandler.m in Sources */,
 				7D53EBD01CDC7EB600274D18 /* YYClassInfo.m in Sources */,
 				7DE866951CE0276700CC2134 /* NDURLRouter.m in Sources */,
 				7DE866941CE0276700CC2134 /* NDURLResult.m in Sources */,
 				7DABB7CD1CE1C1D300CD6F36 /* SecondDemoViewController.m in Sources */,
+				7DABB7D41CE1CCC600CD6F36 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7D53EB751CDB24C400274D18 /* Main.storyboard */ = {
+		7D03ACF31CE4848C00A4D1F6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D53EB761CDB24C400274D18 /* Base */,
+				7D03ACF41CE4848C00A4D1F6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

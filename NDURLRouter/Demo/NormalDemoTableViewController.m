@@ -54,7 +54,8 @@
     }
     else
     {
-        [self openURL:@"nd://jincieryi.com.cn/normaldemosecondvc"];
+        ///默认都是 push 方式，可以设置为 present 方式，方法有很多中，具体参考NDURLOpenOptions，下面这种是拼接到 url 中
+        [self openURL:@"nd://jincieryi.com.cn/normaldemosecondvc?action=present"];
     }
 }
 

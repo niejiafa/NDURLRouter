@@ -18,6 +18,20 @@
 			<key>viewController</key>
 			<string>SecondDemoViewController</string>
 		</dict>
+		<key>TabbarDemo-ThirdVC</key>
+		<dict>
+			<key>url</key>
+			<string>nd://jincieryi.com.cn/tabbardemothirdvc?tab=2</string>
+			<key>viewController</key>
+			<string>ThirdViewController</string>
+		</dict>
+		<key>TabbarHandler</key>
+		<dict>
+			<key>url</key>
+			<string>nd://jincieryi.com.cn/tabbardemothirdvc</string>
+			<key>class</key>
+			<string>TabbarHandler</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

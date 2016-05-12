@@ -114,6 +114,13 @@ static int NDURLHandlerKey;
         return;
     }
     
+    NSString *action = [input.parameters objectForKey:@"action"];
+    if (action) {
+        if ([action isEqualToString:NDURLOpenActionPresent]) {
+            input.options.action = NDURLOpenActionPresent;
+        };
+    }
+    
     [self openViewController:vc withInput:input completion:completion];
 }
 
