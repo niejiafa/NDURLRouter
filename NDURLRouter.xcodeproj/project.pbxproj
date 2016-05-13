@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		7D03ACF21CE47D6700A4D1F6 /* TabbarHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D03ACF11CE47D6700A4D1F6 /* TabbarHandler.m */; };
 		7D03ACF51CE4848C00A4D1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D03ACF31CE4848C00A4D1F6 /* Main.storyboard */; };
+		7D03ACF91CE48B0D00A4D1F6 /* InterceptorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D03ACF81CE48B0D00A4D1F6 /* InterceptorViewController.m */; };
+		7D03ACFC1CE48B5500A4D1F6 /* InterceptorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D03ACFB1CE48B5500A4D1F6 /* InterceptorDemoViewController.m */; };
+		7D03AD001CE48D4100A4D1F6 /* ChirdInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D03ACFF1CE48D4100A4D1F6 /* ChirdInterceptor.m */; };
+		7D03AD031CE48E6500A4D1F6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D03AD021CE48E6500A4D1F6 /* LoginViewController.m */; };
 		7D53EB6E1CDB24C400274D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB6D1CDB24C400274D18 /* main.m */; };
 		7D53EB711CDB24C400274D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53EB701CDB24C400274D18 /* AppDelegate.m */; };
 		7D53EB791CDB24C400274D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D53EB781CDB24C400274D18 /* Assets.xcassets */; };
@@ -40,6 +44,14 @@
 		7D03ACF01CE47D6700A4D1F6 /* TabbarHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarHandler.h; sourceTree = "<group>"; };
 		7D03ACF11CE47D6700A4D1F6 /* TabbarHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarHandler.m; sourceTree = "<group>"; };
 		7D03ACF41CE4848C00A4D1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D03ACF71CE48B0D00A4D1F6 /* InterceptorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterceptorViewController.h; sourceTree = "<group>"; };
+		7D03ACF81CE48B0D00A4D1F6 /* InterceptorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterceptorViewController.m; sourceTree = "<group>"; };
+		7D03ACFA1CE48B5500A4D1F6 /* InterceptorDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterceptorDemoViewController.h; sourceTree = "<group>"; };
+		7D03ACFB1CE48B5500A4D1F6 /* InterceptorDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterceptorDemoViewController.m; sourceTree = "<group>"; };
+		7D03ACFE1CE48D4100A4D1F6 /* ChirdInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChirdInterceptor.h; sourceTree = "<group>"; };
+		7D03ACFF1CE48D4100A4D1F6 /* ChirdInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChirdInterceptor.m; sourceTree = "<group>"; };
+		7D03AD011CE48E6500A4D1F6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7D03AD021CE48E6500A4D1F6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		7D53EB691CDB24C300274D18 /* NDURLRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDURLRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D53EB6D1CDB24C400274D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D53EB6F1CDB24C400274D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NDURLRouter/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -108,6 +120,29 @@
 				7D03ACF11CE47D6700A4D1F6 /* TabbarHandler.m */,
 			);
 			name = ChildHandler;
+			sourceTree = "<group>";
+		};
+		7D03ACF61CE48A6200A4D1F6 /* InterceptorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7D03ACF71CE48B0D00A4D1F6 /* InterceptorViewController.h */,
+				7D03ACF81CE48B0D00A4D1F6 /* InterceptorViewController.m */,
+				7D03ACFA1CE48B5500A4D1F6 /* InterceptorDemoViewController.h */,
+				7D03ACFB1CE48B5500A4D1F6 /* InterceptorDemoViewController.m */,
+				7D03AD011CE48E6500A4D1F6 /* LoginViewController.h */,
+				7D03AD021CE48E6500A4D1F6 /* LoginViewController.m */,
+				7D03ACFD1CE48D1600A4D1F6 /* Interceptor */,
+			);
+			name = InterceptorDemo;
+			sourceTree = "<group>";
+		};
+		7D03ACFD1CE48D1600A4D1F6 /* Interceptor */ = {
+			isa = PBXGroup;
+			children = (
+				7D03ACFE1CE48D4100A4D1F6 /* ChirdInterceptor.h */,
+				7D03ACFF1CE48D4100A4D1F6 /* ChirdInterceptor.m */,
+			);
+			name = Interceptor;
 			sourceTree = "<group>";
 		};
 		7D53EB601CDB24C300274D18 = {
@@ -245,6 +280,7 @@
 			children = (
 				7DE866A11CE08DB800CC2134 /* NormalDemo */,
 				7DABB7D11CE1C95500CD6F36 /* TabbarDemo */,
+				7D03ACF61CE48A6200A4D1F6 /* InterceptorDemo */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -336,9 +372,11 @@
 			files = (
 				7DABB7D01CE1C76A00CD6F36 /* TabbarViewController.m in Sources */,
 				7DE8668F1CE0276700CC2134 /* NDURLHandler.m in Sources */,
+				7D03AD031CE48E6500A4D1F6 /* LoginViewController.m in Sources */,
 				7DE866921CE0276700CC2134 /* NDURLManager.m in Sources */,
 				7DE866A01CE08B9700CC2134 /* NormalDemoTableViewController.m in Sources */,
 				7DE8669C1CE08A5300CC2134 /* NDURLRouterDemoTableViewController.m in Sources */,
+				7D03ACFC1CE48B5500A4D1F6 /* InterceptorDemoViewController.m in Sources */,
 				7DE866931CE0276700CC2134 /* NDURLOpenOptions.m in Sources */,
 				7D53EBCF1CDC7EB600274D18 /* NSObject+YYModel.m in Sources */,
 				7DE866901CE0276700CC2134 /* NDURLInput.m in Sources */,
@@ -349,11 +387,13 @@
 				7DE866961CE0276700CC2134 /* UIViewController+NDURLRouter.m in Sources */,
 				7DE8668E1CE0276700CC2134 /* NDURLConfigurableInterceptor.m in Sources */,
 				7D53EB711CDB24C400274D18 /* AppDelegate.m in Sources */,
+				7D03ACF91CE48B0D00A4D1F6 /* InterceptorViewController.m in Sources */,
 				7D53EB6E1CDB24C400274D18 /* main.m in Sources */,
 				7D03ACF21CE47D6700A4D1F6 /* TabbarHandler.m in Sources */,
 				7D53EBD01CDC7EB600274D18 /* YYClassInfo.m in Sources */,
 				7DE866951CE0276700CC2134 /* NDURLRouter.m in Sources */,
 				7DE866941CE0276700CC2134 /* NDURLResult.m in Sources */,
+				7D03AD001CE48D4100A4D1F6 /* ChirdInterceptor.m in Sources */,
 				7DABB7CD1CE1C1D300CD6F36 /* SecondDemoViewController.m in Sources */,
 				7DABB7D41CE1CCC600CD6F36 /* ThirdViewController.m in Sources */,
 			);

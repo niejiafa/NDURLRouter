@@ -32,6 +32,36 @@
 			<key>class</key>
 			<string>TabbarHandler</string>
 		</dict>
+		<key>InterceptorDemo</key>
+		<dict>
+			<key>viewController</key>
+			<string>InterceptorDemoViewController</string>
+			<key>url</key>
+			<string>nd://jincieryi.com.cn/interceptordemovc</string>
+		</dict>
+		<key>LoginVC</key>
+		<dict>
+			<key>url</key>
+			<string>nd://jincieryi.com.cn/login</string>
+			<key>viewController</key>
+			<string>LoginViewController</string>
+		</dict>
+	</dict>
+	<key>interceptors</key>
+	<dict>
+		<key>登录拦截</key>
+		<dict>
+            <key>class</key>
+            <string>ChirdInterceptor</string>
+            <key>name</key>
+            <string>login</string>
+            <key>sort</key>
+            <string>0</string>
+            <key>urls</key>
+            <array>
+                <string>nd://jincieryi.com.cn/interceptordemovc</string>
+            </array>
+		</dict>
 	</dict>
 </dict>
 </plist>

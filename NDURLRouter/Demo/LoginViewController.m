@@ -1,23 +1,25 @@
 //
-//  SecondDemoViewController.m
+//  LoginViewController.m
 //  NDURLRouter
 //
-//  Created by NDMAC on 16/5/10.
+//  Created by NDMAC on 16/5/12.
 //  Copyright © 2016年 NDEducation. All rights reserved.
 //
 
-#import "SecondDemoViewController.h"
+#import "LoginViewController.h"
 
-@interface SecondDemoViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation SecondDemoViewController
+@implementation LoginViewController
 
 #pragma mark - life cycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"未登录";
+
     UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
     backButton.frame = CGRectMake(0, 64, 100, 100);
     [self.view addSubview:backButton];
